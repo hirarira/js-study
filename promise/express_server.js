@@ -7,17 +7,25 @@ let server = app.listen(5000, function(){
 });
 
 app.get('/test1', (req, res) => {
-  res.send('test1');
+  setTimeout( function() {
+    res.send('test1');
+  }, 300);
 });
 app.get('/test2', (req, res) => {
-  res.send('test2');
+  setTimeout( function() {
+    res.send('test2');
+  }, 200);
 });
 app.get('/test3', (req, res) => {
   res.send('test3');
 });
 app.get('/test4', (req, res) => {
-  res.send('test4');
+  setTimeout( function() {
+    res.send('test4');
+  }, 600);
 });
 app.get('/test5', (req, res) => {
-  res.send('test5');
+  setTimeout( function() {
+    res.send('test5');
+  }, 500);
 });
