@@ -5,7 +5,6 @@ let server = "http://localhost:5000";
 let request = require('request');
 let pathes = ['/test1','/test2','/test3','/test4','/test5'];
 let result = [];
-console.log(server+pathes[0]);
 request.get(server+pathes[0],(err, response, body)=>{
   result.push(body);
   request.get(server+pathes[1],(err, response, body)=>{
