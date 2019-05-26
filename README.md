@@ -1,2 +1,6 @@
-# js-promise demo
-JavaScriptのPromiseの使い方デモ
+# js-study
+hirarira の JavaScript備忘録用リポジトリ
+
+## list
+
+* promise
