@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "mysql2": "^1.6.5",
     "pm2": "^4.0.0",
     "request": "^2.88.0",
